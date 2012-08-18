@@ -291,3 +291,6 @@
 #3 /var/www/is430/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-08-18 18:57:42 Error: [MissingControllerException] Controller class WritersController could not be found.
+#0 /Users/nctiggy/Sites/is430/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
