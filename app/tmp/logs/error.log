@@ -1,0 +1,293 @@
+2012-08-10 15:04:21 Error: [MissingControllerException] Controller class ComicsController could not be found.
+#0 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-10 15:05:31 Error: [MissingActionException] Action ComicsController::index() could not be found.
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-10 15:06:26 Error: [MissingViewException] View file "/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp" is missing.
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-10 15:07:31 Error: [MissingViewException] View file "/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp" is missing.
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-10 15:47:28 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:47:28 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:47:32 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:47:32 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:47:37 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:47:37 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:49:50 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:49:50 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:51:02 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:51:02 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:51:03 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:51:03 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:51:25 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 33]
+2012-08-10 15:51:25 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 33, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:52:15 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:52:15 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:52:16 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:52:16 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:52:17 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:52:17 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:56:50 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:56:50 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:56:51 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:56:51 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 15:57:09 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 15:57:09 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:02:07 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 16:02:07 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:02:10 Error: [MissingControllerException] Controller class ComicController could not be found.
+#0 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-10 16:02:19 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Comics/index.ctp, line 34]
+2012-08-10 16:02:19 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 34, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:29:34 Error: [MissingHelperException] Helper class ComicHelper could not be found.
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/View/View.php(861): HelperCollection->load('Comic', Array)
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-08-10 16:30:03 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 3]
+2012-08-10 16:30:03 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 3, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 3, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:30:23 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 3]
+2012-08-10 16:30:23 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 3, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 3, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:34:11 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 8]
+2012-08-10 16:34:11 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 8, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 8, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:36:50 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 7]
+2012-08-10 16:36:50 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 7, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 7, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 16:37:36 Error: Fatal Error (4): parse error in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 7]
+2012-08-10 16:37:36 Error: [FatalErrorException] parse error
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nctiggy/...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nctiggy/...', 7, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nctiggy/...', 7, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 17:58:27 Error: Fatal Error (1): Call to a member function diff() on a non-object in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 5]
+2012-08-10 17:58:27 Error: [FatalErrorException] Call to a member function diff() on a non-object
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nctiggy/...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nctiggy/...', 5, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nctiggy/...', 5, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 18:05:23 Error: Fatal Error (1): Call to a member function diff() on a non-object in [/Users/nctiggy/Sites/funcdate/app/View/Helper/ComicHelper.php, line 6]
+2012-08-10 18:05:23 Error: [FatalErrorException] Call to a member function diff() on a non-object
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nctiggy/...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nctiggy/...', 6, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nctiggy/...', 6, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 18:15:53 Error: Fatal Error (1): Cannot unset string offsets in [/Users/nctiggy/Sites/funcdate/lib/Cake/View/Helper/HtmlHelper.php, line 355]
+2012-08-10 18:15:53 Error: [FatalErrorException] Cannot unset string offsets
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Users/nctiggy/...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Users/nctiggy/...', 355, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Users/nctiggy/...', 355, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-10 18:33:54 Error: [MissingActionException] Action ComicsController::view() could not be found.
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-11 01:13:55 Error: Fatal Error (4): parse error, expecting `T_STRING' or `T_VARIABLE' or `'{'' or `'$'' in [/Users/nctiggy/Sites/funcdate/app/Controller/ComicsController.php, line 11]
+2012-08-11 01:13:55 Error: [FatalErrorException] parse error, expecting `T_STRING' or `T_VARIABLE' or `'{'' or `'$''
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nctiggy/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nctiggy/...', 11, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nctiggy/...', 11, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-11 01:14:21 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/nctiggy/Sites/funcdate/app/Controller/ComicsController.php, line 11]
+2012-08-11 01:14:21 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nctiggy/...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nctiggy/...', 11, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nctiggy/...', 11, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-11 01:27:55 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/nctiggy/Sites/funcdate/app/View/Comics/view.ctp, line 4]
+2012-08-11 01:27:55 Error: [FatalErrorException] parse error, expecting `','' or `';''
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nctiggy/...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nctiggy/...', 4, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nctiggy/...', 4, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-11 01:52:16 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/nctiggy/Sites/funcdate/app/Controller/ComicsController.php, line 17]
+2012-08-11 01:52:16 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nctiggy/...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nctiggy/...', 17, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nctiggy/...', 17, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-11 01:55:42 Error: Fatal Error (1): Call to undefined method ComicsController::redirectl() in [/Users/nctiggy/Sites/funcdate/app/Controller/ComicsController.php, line 21]
+2012-08-11 01:55:42 Error: [FatalErrorException] Call to undefined method ComicsController::redirectl()
+#0 /Users/nctiggy/Sites/funcdate/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nctiggy/...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nctiggy/...', 21, Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nctiggy/...', 21, Array)
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-11 02:42:51 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: ComicsController->delete('1')
+#1 /Users/nctiggy/Sites/funcdate/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ComicsController), Array)
+#2 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nctiggy/Sites/funcdate/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nctiggy/Sites/funcdate/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-12 17:40:55 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/is430/app/Controller/ComicsController.php, line 7]
+2012-08-12 17:40:55 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 /var/www/is430/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/is430/...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/is430/...', 7, Array)
+#2 /var/www/is430/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/is430/...', 7, Array)
+#3 /var/www/is430/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-12 17:41:50 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/is430/app/Controller/ComicsController.php, line 6]
+2012-08-12 17:41:50 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /var/www/is430/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/is430/...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/is430/...', 6, Array)
+#2 /var/www/is430/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/is430/...', 6, Array)
+#3 /var/www/is430/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-12 18:18:24 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/is430/app/View/Comics/index.ctp, line 41]
+2012-08-12 18:18:24 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+#0 /var/www/is430/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/is430/...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/is430/...', 41, Array)
+#2 /var/www/is430/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/is430/...', 41, Array)
+#3 /var/www/is430/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
